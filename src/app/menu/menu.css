@@ -1,0 +1,56 @@
+
+        /* Estilos generales de la barra de navegación */
+        .navbar {
+            background-color: #4c42a1ef; /* Color de fondo oscuro */
+            color: -rgb(20, 19, 19);
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between; /* Distribuye los elementos */
+            align-items: center;
+        }
+
+        /* Contenedor de los enlaces */
+        .navbar-links {
+            list-style: none;
+            margin: 1cm;
+            padding: 0;
+            display: flex;
+        }
+
+        /* Estilos para cada enlace */
+        .navbar-links li {
+            margin-right: 20px; /* Espacio entre enlaces */
+        }
+
+        .navbar-links a {
+            color: rgb(26, 22, 22);
+            text-decoration: none; /* Quita el subrayado */
+            font-family: sans-serif;
+            font-weight: bold;
+            transition: color 0.3s ease; /* Suaviza la transición al pasar el mouse */
+        }
+
+        .navbar-links a:hover {
+            color: #ddd; /* Color al pasar el mouse */
+        }
+
+        /* Contenedor del botón de login */
+        .navbar-login {
+            margin-left: auto; /* Mueve el login al lado derecho */
+        }
+
+        .navbar-login a {
+            background-color: #5cb85c; /* Color de fondo verde para el botón */
+            color: white;
+            padding: 8px 15px;
+            text-decoration: none;
+            border-radius: 20px; /* Bordes redondeados */
+            font-family: sans-serif;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .navbar-login a:hover {
+            background-color: #4cae4c; /* Color más oscuro al pasar el mouse */
+        }
+       
