@@ -3,6 +3,7 @@ import { RouterLink } from '@angular/router';
 import { Home } from '../home/home';
 import { About } from '../about/about';
 import { Login } from '../login/login';
+import { Formulario } from '../formulario/formulario';
 
 @Component({
   selector: 'app-menu',
