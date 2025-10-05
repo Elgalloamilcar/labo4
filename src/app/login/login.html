@@ -1,15 +1,13 @@
-<form class="formulario">
+<form class="formulario" >
     <ul class="formulario-ul">
-        <li class="li-formulario"><a routerlink="login"></a>Iniciar Sesión</li>
-        <li class="li-formulario"><a routerLink="formulario"></a>Registrarse</li>
     </ul>
-    <h2 class="h2-registro">Iniciar Sesión</h2>
     <section class="inputs">
+        <h2 class="h2-registro">Iniciar Sesión</h2>
         <label class="label-nombre">Nombre de Usuario</label>
-        <input type="text" name="Nombre">
+        <input type="text" name="Nombre" required>
         <label class="label-nombre">Contraseña</label>
-        <input type="password" name="Contraseña">
+        <input type="password" name="Contraseña" required>
+        <button>Enviar</button>
+        <p>No tienes una cuenta?<a routerLink="formulario">Registrarse</a></p>
     </section>
-    <button>Enviar</button>
-    <p>No tienes una cuenta?<a routerLink="formulario">Registrarse</a></p>
 </form>

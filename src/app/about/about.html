@@ -1,1 +1,46 @@
-<p>about works!</p>
+
+<div class="about-me-card">
+  
+  <header class="profile-header">
+    <img src="\assets\img\icon-512.png" width="100px">
+    
+    <div class="personal-info">
+      <h1>{{ nombre }}</h1>
+      <p class="title">{{ titulo }}</p>
+    </div>
+  </header>
+  
+  <hr>
+
+  <section class="interests-section">
+    <h2>Datos personales</h2>
+    <p>Fecha de nacimiento: 09/09/1984</p>
+    <p>Edad: 41 años</p>
+    <p>Localidad: González Catán</p>
+    
+    <div class="interests-list">
+      <span class="tag" *ngFor="let interes of intereses">
+        {{ interes }}
+      </span>
+    </div>
+  </section>
+  
+  <hr>
+
+  <section class="game-info-section">
+    <h2>Mi juego</h2>
+    
+    <div class="game-details">
+      <h3>{{ nombreJuego }}</h3>
+      <p class="game-genre">
+        <span class="label">Género:</span> {{ generoJuego }}
+      </p>
+      
+      <p class="game-description">
+        {{ descripcionJuego }}
+      </p>
+      
+    </div>
+  </section>
+
+</div>

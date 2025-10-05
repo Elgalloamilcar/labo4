@@ -1,0 +1,99 @@
+
+.about-me-card {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #f2f2f2; 
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+    margin: 25px 0;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+.personal-info h1 {
+    margin: 0;
+    font-size: 1.8em;
+    color: #2c3e50;
+}
+
+.personal-info .title {
+    color: #6c757d;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+
+.interests-section h2, .game-info-section h2 {
+    color: #007bff;
+    font-size: 1.4em;
+    margin-bottom: 15px;
+}
+
+.interests-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tag {
+    background-color: #e3f2fd;
+    color: #007bff;
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+
+.game-details h3 {
+    color: #34495e;
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+.game-genre {
+    font-style: italic;
+    color: #8c7ae6; 
+    margin-bottom: 10px;
+}
+
+.game-genre .label {
+    font-weight: bold;
+    color: #333;
+}
+
+.game-description {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.view-more-button {
+    display: inline-block;
+    background-color: #2ecc71; 
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.view-more-button:hover {
+    background-color: #27ad60;
+}

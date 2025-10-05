@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { Formulario } from '../formulario/formulario';
 import { RouterLink } from '@angular/router';
 @Component({
   selector: 'app-login',
@@ -9,5 +8,6 @@ import { RouterLink } from '@angular/router';
   styleUrl: './login.css'
 })
 export class Login {
+
 
 }

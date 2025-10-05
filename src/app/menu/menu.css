@@ -1,56 +1,53 @@
 
-        /* Estilos generales de la barra de navegación */
         .navbar {
-            background-color: #4c42a1ef; /* Color de fondo oscuro */
+            background-color: #4c42a1ef; 
             color: -rgb(20, 19, 19);
             padding: 10px 20px;
             display: flex;
-            justify-content: space-between; /* Distribuye los elementos */
+            justify-content: space-between; 
             align-items: center;
+            
         }
 
-        /* Contenedor de los enlaces */
         .navbar-links {
             list-style: none;
             margin: 1cm;
             padding: 0;
             display: flex;
         }
-
-        /* Estilos para cada enlace */
+    
         .navbar-links li {
-            margin-right: 20px; /* Espacio entre enlaces */
+            margin-right: 20px; 
         }
 
         .navbar-links a {
             color: rgb(26, 22, 22);
-            text-decoration: none; /* Quita el subrayado */
+            text-decoration: none; 
             font-family: sans-serif;
             font-weight: bold;
-            transition: color 0.3s ease; /* Suaviza la transición al pasar el mouse */
+            transition: color 0.3s ease; 
         }
 
         .navbar-links a:hover {
-            color: #ddd; /* Color al pasar el mouse */
+            color: #ddd; 
         }
 
-        /* Contenedor del botón de login */
         .navbar-login {
-            margin-left: auto; /* Mueve el login al lado derecho */
+            margin-left: auto; 
         }
 
         .navbar-login a {
-            background-color: #5cb85c; /* Color de fondo verde para el botón */
+            background-color: #5cb85c; 
             color: white;
             padding: 8px 15px;
             text-decoration: none;
-            border-radius: 20px; /* Bordes redondeados */
+            border-radius: 20px; 
             font-family: sans-serif;
             font-weight: bold;
             transition: background-color 0.3s ease;
         }
 
         .navbar-login a:hover {
-            background-color: #4cae4c; /* Color más oscuro al pasar el mouse */
+            background-color: #4cae4c; 
         }
        

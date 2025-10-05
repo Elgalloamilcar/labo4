@@ -13,7 +13,7 @@ body{
 .formulario{
     display: flex;
     width: 600px;
-    height: 460px;
+    height: 430px;
     border-radius: 10px;
     background-color: #f2f2f2;
     margin: 0 auto;
@@ -58,7 +58,6 @@ input{
     height: 35px;
     width: 100%;
     border: none;
-    border-radius: 7px;
     border-bottom: 1px solid #000;
     outline: #f2f2f2;
 }

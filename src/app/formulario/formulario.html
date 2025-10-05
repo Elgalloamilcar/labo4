@@ -1,11 +1,11 @@
 
 <form class="formulario">
-    <ul class="formulario-ul">
-        <li class="li-formulario"><a routerLink="login"></a>Iniciar Sesión</li>
-        <li class="li-formulario"><a routerLink="formulario"></a>Registrarse</li>
-    </ul>
-    <h2 class="h2-registro">Registro</h2>
+  
+ 
     <section class="inputs">
+        <ul class="formulario-ul"></ul>
+        <h2 class="h2-registro">Registrar</h2>
+
         <label class="label-nombre">Nombre de Usuario</label>
         <input type="text" name="Nombre">
         <label class="label-nombre">Correo Electrónico</label>
@@ -14,7 +14,8 @@
         <input type="password" name="Contraseña">
         <label class="repetir-contraseña">Repetir Contraseña</label>
         <input type="password" name="Contraseña">
+        <button>Enviar</button>
+        <p>Ya tienes una cuenta? <a routerLink="login">Iniciar Sesión</a></p>
+
     </section>
-    <button>Enviar</button>
-    <p>Ya tienes una cuenta? <a routerLink="login">Iniciar Sesión</a></p>
 </form>
